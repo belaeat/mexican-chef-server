@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "imageUrl": "https://example.com/chef1.jpg",
+        "imageUrl": "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "name": "Chef Juan",
         "yearsOfExperience": 10,
         "numRecipes": 50,
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "imageUrl": "https://example.com/chef2.jpg",
+        "imageUrl": "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "name": "Chef Maria",
         "yearsOfExperience": 8,
         "numRecipes": 40,
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "imageUrl": "https://example.com/chef3.jpg",
+        "imageUrl": "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "name": "Chef Miguel",
         "yearsOfExperience": 12,
         "numRecipes": 60,
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "imageUrl": "https://example.com/chef4.jpg",
+        "imageUrl": "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "name": "Chef Lucia",
         "yearsOfExperience": 7,
         "numRecipes": 30,
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "imageUrl": "https://example.com/chef5.jpg",
+        "imageUrl": "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "name": "Chef Roberto",
         "yearsOfExperience": 9,
         "numRecipes": 45,
@@ -41,26 +41,10 @@
     },
     {
         "id": 6,
-        "imageUrl": "https://example.com/chef1.jpg",
+        "imageUrl": "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "name": "Chef John",
         "yearsOfExperience": 6,
         "numRecipes": 33,
         "likes": 782
-    },
-    {
-        "id": 7,
-        "imageUrl": "https://example.com/chef2.jpg",
-        "name": "Chef Carlos",
-        "yearsOfExperience": 8,
-        "numRecipes": 40,
-        "likes": 1021
-    },
-    {
-        "id": 8,
-        "imageUrl": "https://example.com/chef3.jpg",
-        "name": "Chef Perez",
-        "yearsOfExperience": 12,
-        "numRecipes": 45,
-        "likes": 1204
     }
 ]
