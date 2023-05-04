@@ -1,0 +1,66 @@
+[
+    {
+        "id": 1,
+        "imageUrl": "https://example.com/chef1.jpg",
+        "name": "Chef Juan",
+        "yearsOfExperience": 10,
+        "numRecipes": 50,
+        "likes": 1162
+    },
+    {
+        "id": 2,
+        "imageUrl": "https://example.com/chef2.jpg",
+        "name": "Chef Maria",
+        "yearsOfExperience": 8,
+        "numRecipes": 40,
+        "likes": 1078
+    },
+    {
+        "id": 3,
+        "imageUrl": "https://example.com/chef3.jpg",
+        "name": "Chef Miguel",
+        "yearsOfExperience": 12,
+        "numRecipes": 60,
+        "likes": 1346
+    },
+    {
+        "id": 4,
+        "imageUrl": "https://example.com/chef4.jpg",
+        "name": "Chef Lucia",
+        "yearsOfExperience": 7,
+        "numRecipes": 30,
+        "likes": 1123
+    },
+    {
+        "id": 5,
+        "imageUrl": "https://example.com/chef5.jpg",
+        "name": "Chef Roberto",
+        "yearsOfExperience": 9,
+        "numRecipes": 45,
+        "likes": 1155
+    },
+    {
+        "id": 6,
+        "imageUrl": "https://example.com/chef1.jpg",
+        "name": "Chef John",
+        "yearsOfExperience": 6,
+        "numRecipes": 33,
+        "likes": 782
+    },
+    {
+        "id": 7,
+        "imageUrl": "https://example.com/chef2.jpg",
+        "name": "Chef Carlos",
+        "yearsOfExperience": 8,
+        "numRecipes": 40,
+        "likes": 1021
+    },
+    {
+        "id": 8,
+        "imageUrl": "https://example.com/chef3.jpg",
+        "name": "Chef Perez",
+        "yearsOfExperience": 12,
+        "numRecipes": 45,
+        "likes": 1204
+    }
+]
