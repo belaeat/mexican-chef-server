@@ -6,7 +6,6 @@ const port = process.env.PORT || 5000;
 app.use(cors())
 
 const chefs = require('./data/chef.json')
-
 const recipes = require('./data/recipes.json')
 
 app.get('/', (req, res) => {
@@ -29,7 +28,7 @@ app.get('/recipes', (req, res) => {
 
 app.get('/recipes/:id', (req, res) => {
     const id = req.params.id
-    console.log(id)
+    // console.log(id)
     const selectedRecipe = recipes.find(recipe => recipe.id == id)
     res.send(selectedRecipe)
 })
@@ -38,7 +37,7 @@ app.get('/recipes/:id', (req, res) => {
 
 app.get('/chefs/:id', (req, res) => {
     const id = parseInt(req.params.id)
-    console.log(id)
+    // console.log(id)
     const chefsRecipes = recipes.filter(n => n.chef_id == id)
     res.send(chefsRecipes)
 })

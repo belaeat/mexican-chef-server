@@ -3,7 +3,14 @@
         "id": 1,
         "chef_id": 1,
         "name": "Tacos al Pastor",
-        "chefUrl": "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "name": "Chef Juan",
+            "bio": "Chef Juan is a Mexican chef and owner of Pujol in Mexico City, which has been named the best restaurant in Mexico and is frequently ranked among the world's top 50 restaurants. He is known for his innovative use of traditional Mexican ingredients and his commitment to sustainability.",
+            "yearsOfExperience": 10,
+            "numRecipes": 50,
+            "likes": 1162
+        },
         "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "ingredients": [
             "1 lb pork shoulder, sliced thin",
@@ -18,15 +25,22 @@
             "12 corn tortillas",
             "1/2 cup fresh cilantro, chopped"
         ],
-        "method": "1. Preheat oven to 400 degrees F (200 degrees C).\n2. Blend achiote paste, vinegar, orange juice, pineapple juice, garlic, salt, oregano, cumin, and black pepper in a blender until smooth.\n3. Marinate pork in the achiote mixture for at least 1 hour, or up to 24 hours.\n4. Preheat a grill or grill pan over medium-high heat.\n5. Thread pork onto skewers and grill, turning occasionally, until browned and cooked through, about 10 minutes.\n6. Remove pork from skewers and chop into small pieces.\n7. Warm tortillas in a dry skillet or on the grill for about 30 seconds per side.\n8. Serve pork on warm tortillas with diced onion, cilantro, and a squeeze of fresh lime juice.",
+        "method": "1. Preheat oven to 400 degrees F (200 degrees C).  2. Blend achiote paste, vinegar, orange juice, pineapple juice, garlic, salt, oregano, cumin, and black pepper in a blender until smooth.  3. Marinate pork in the achiote mixture for at least 1 hour, or up to 24 hours.  4. Preheat a grill or grill pan over medium-high heat.  5. Thread pork onto skewers and grill, turning occasionally, until browned and cooked through, about 10 minutes.  6. Remove pork from skewers and chop into small pieces.  7. Warm tortillas in a dry skillet or on the grill for about 30 seconds per side.  8. Serve pork on warm tortillas with diced onion, cilantro, and a squeeze of fresh lime juice.",
         "rating": 4.5
     },
     {
         "id": 2,
         "chef_id": 1,
         "name": "Chiles Rellenos",
-        "chefUrl": "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "name": "Chef Juan",
+            "bio": "Chef Juan is a Mexican chef and owner of Pujol in Mexico City, which has been named the best restaurant in Mexico and is frequently ranked among the world's top 50 restaurants. He is known for his innovative use of traditional Mexican ingredients and his commitment to sustainability.",
+            "yearsOfExperience": 10,
+            "numRecipes": 50,
+            "likes": 1162
+        },
+        "imageUrl": "https://www.seriouseats.com/thmb/trejv0fslsb3vZ7q_X5uGwywDbo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__20160422-chiles-rellenos-27-1be34192fc8c475da5c50b45e1c5f0b4.jpg",
         "ingredients": [
             "6 poblano peppers",
             "1 lb ground beef",
@@ -49,8 +63,15 @@
         "id": 3,
         "chef_id": 2,
         "name": "Enchiladas Verdes",
-        "chefUrl": "https://images.unsplash.com/photo-1617473345933-609b7153daf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1617473345933-609b7153daf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80",
+            "name": "Chef Maria",
+            "bio": "Chef Maria is a Mexican chef and owner of Dulce Patria in Mexico City, which is known for its modern take on traditional Mexican cuisine. She is also a cookbook author and has been recognized by the Latin America's 50 Best Restaurants list.",
+            "yearsOfExperience": 8,
+            "numRecipes": 40,
+            "likes": 1078
+        },
+        "imageUrl": "https://i.blogs.es/23068c/enchiladas-verdes-rellenas-de-queso-1-/1366_2000.jpg",
         "ingredients": [
             "12 corn tortillas",
             "1 lb cooked chicken, shredded",
@@ -73,8 +94,15 @@
         "id": 4,
         "chef_id": 2,
         "name": "Chicken Enchiladas",
-        "chefUrl": "https://images.unsplash.com/photo-1617473345933-609b7153daf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1617473345933-609b7153daf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80",
+            "name": "Chef Maria",
+            "bio": "Chef Maria is a Mexican chef and owner of Dulce Patria in Mexico City, which is known for its modern take on traditional Mexican cuisine. She is also a cookbook author and has been recognized by the Latin America's 50 Best Restaurants list.",
+            "yearsOfExperience": 8,
+            "numRecipes": 40,
+            "likes": 1078
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1570461226513-e08b58a52c53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80",
         "ingredients": [
             "chicken breasts",
             "enchilada sauce",
@@ -93,8 +121,15 @@
         "id": 5,
         "chef_id": 3,
         "name": "Beef Tacos",
-        "chefUrl": "https://images.unsplash.com/photo-1622221410151-2e0c403c5c38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1622221410151-2e0c403c5c38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+            "name": "Chef Miguel",
+            "bio": "Chef Miguel is a Mexican chef and owner of Quintonil in Mexico City, which has been ranked among the world's top 10 restaurants. He is known for his use of local, seasonal ingredients and his commitment to sustainability.",
+            "yearsOfExperience": 12,
+            "numRecipes": 60,
+            "likes": 1346
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1619221882161-95135fca04e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "ingredients": [
             "ground beef",
             "taco seasoning",
@@ -113,8 +148,15 @@
         "id": 6,
         "chef_id": 3,
         "name": "Guacamole",
-        "chefUrl": "https://images.unsplash.com/photo-1622221410151-2e0c403c5c38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1622221410151-2e0c403c5c38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+            "name": "Chef Miguel",
+            "bio": "Chef Miguel is a Mexican chef and owner of Quintonil in Mexico City, which has been ranked among the world's top 10 restaurants. He is known for his use of local, seasonal ingredients and his commitment to sustainability.",
+            "yearsOfExperience": 12,
+            "numRecipes": 60,
+            "likes": 1346
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1595016111459-799a195e7452?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "ingredients": [
             "ripe avocados",
             "lime juice",
@@ -130,8 +172,15 @@
         "id": 7,
         "chef_id": 4,
         "name": "Quesadillas",
-        "chefUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "name": "Chef Micheal",
+            "bio": "Chef Micheal is a Mexican chef and owner of Rosetta in Mexico City, which is known for its Italian-inspired cuisine. She is also a cookbook author and has been recognized by the Latin America's 50 Best Restaurants list.",
+            "yearsOfExperience": 7,
+            "numRecipes": 30,
+            "likes": 1123
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1618040996337-56904b7850b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "ingredients": [
             "flour tortillas",
             "shredded cheese",
@@ -147,9 +196,16 @@
     {
         "id": 8,
         "chef_id": 4,
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "name": "Chef Micheal",
+            "bio": "Chef Micheal is a Mexican chef and owner of Rosetta in Mexico City, which is known for its Italian-inspired cuisine. She is also a cookbook author and has been recognized by the Latin America's 50 Best Restaurants list.",
+            "yearsOfExperience": 7,
+            "numRecipes": 30,
+            "likes": 1123
+        },
         "name": "Classic Lasagna",
-        "chefUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "imageUrl": "https://www.modernhoney.com/wp-content/uploads/2019/08/Classic-Lasagna-12-1536x951.jpg",
         "ingredients": [
             "1 pound sweet Italian sausage",
             "3/4 pound lean ground beef",
@@ -180,8 +236,15 @@
         "id": 9,
         "chef_id": 5,
         "name": "Chicken Alfredo",
-        "chefUrl": "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1387&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1387&q=80",
+            "name": "Chef Roberto",
+            "bio": "Chef Roberto is a Mexican chef and owner of Contramar in Mexico City and Cala in San Francisco. She is known for her use of sustainable seafood and her commitment to social justice issues.",
+            "yearsOfExperience": 9,
+            "numRecipes": 45,
+            "likes": 1155
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "ingredients": [
             "1 (16 ounce) package linguine pasta",
             "1/2 cup butter",
@@ -198,8 +261,15 @@
         "id": 10,
         "chef_id": 5,
         "name": "Carne Asada Tacos",
-        "chefUrl": "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1387&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1387&q=80",
+            "name": "Chef Roberto",
+            "bio": "Chef Roberto is a Mexican chef and owner of Contramar in Mexico City and Cala in San Francisco. She is known for her use of sustainable seafood and her commitment to social justice issues.",
+            "yearsOfExperience": 9,
+            "numRecipes": 45,
+            "likes": 1155
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1648437595587-e6a8b0cdf1f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
         "ingredients": [
             "1 lb flank steak",
             "1/4 cup lime juice",
@@ -221,8 +291,15 @@
         "id": 11,
         "chef_id": 6,
         "name": "Carnitas Tacos",
-        "chefUrl": "https://images.unsplash.com/photo-1512485800893-b08ec1ea59b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1512485800893-b08ec1ea59b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "name": "Chef John",
+            "bio": "Chef John is a Mexican-American chef based in Los Angeles. He is the executive chef at Casa Oaxaca, which is known for its authentic Oaxacan cuisine. Ruiz has also appeared on the Food Network's Chopped and Cutthroat Kitchen.",
+            "yearsOfExperience": 6,
+            "numRecipes": 33,
+            "likes": 782
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1512427691650-15fcce1dc7b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
         "ingredients": [
             "2 lbs boneless pork shoulder, cut into 1-2 inch cubes",
             "1/4 cup orange juice",
@@ -237,15 +314,22 @@
             "1/2 cup diced white onion",
             "1 lime, cut into wedges"
         ],
-        "method": "1. Preheat the oven to 350°F (175°C).\n2. Season the pork shoulder with salt and pepper.\n3. Heat the oil in a large Dutch oven over medium-high heat.\n4. Add the pork and cook until browned on all sides, about 5 minutes per side.\n5. Transfer the pork to a plate.\n6. Add the onions and garlic to the Dutch oven and cook until softened, about 5 minutes.\n7. Stir in the cumin and oregano and cook for 1 minute.\n8. Return the pork to the Dutch oven and add enough water to cover.\n9. Bring to a simmer, then cover and transfer to the oven.\n10. Cook until the pork is tender and pulls apart easily with a fork, about 3 hours.\n11. Remove the pork from the Dutch oven and shred with two forks.\n12. Heat a large skillet over medium-high heat.\n13. Add the shredded pork and cook until crispy, about 5 minutes.\n14. Warm the tortillas on a hot griddle or directly over a gas flame.\n15. Serve the pork in the tortillas with desired toppings.",
+        "method": "1. Preheat the oven to 350°F (175°C).  2. Season the pork shoulder with salt and pepper.  3. Heat the oil in a large Dutch oven over medium-high heat.  4. Add the pork and cook until browned on all sides, about 5 minutes per side.  5. Transfer the pork to a plate.  6. Add the onions and garlic to the Dutch oven and cook until softened, about 5 minutes.  7. Stir in the cumin and oregano and cook for 1 minute.  8. Return the pork to the Dutch oven and add enough water to cover.  9. Bring to a simmer, then cover and transfer to the oven.  10. Cook until the pork is tender and pulls apart easily with a fork, about 3 hours.  11. Remove the pork from the Dutch oven and shred with two forks.  12. Heat a large skillet over medium-high heat.  13. Add the shredded pork and cook until crispy, about 5 minutes.  14. Warm the tortillas on a hot griddle or directly over a gas flame.  15. Serve the pork in the tortillas with desired toppings.",
         "rating": 4.7
     },
     {
         "id": 12,
         "chef_id": 6,
         "name": "Fish Tacos",
-        "chefUrl": "https://images.unsplash.com/photo-1512485800893-b08ec1ea59b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1512485800893-b08ec1ea59b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "name": "Chef John",
+            "bio": "Chef John is a Mexican-American chef based in Los Angeles. He is the executive chef at Casa Oaxaca, which is known for its authentic Oaxacan cuisine. Ruiz has also appeared on the Food Network's Chopped and Cutthroat Kitchen.",
+            "yearsOfExperience": 6,
+            "numRecipes": 33,
+            "likes": 782
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1512838243191-e81e8f66f1fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "ingredients": [
             "1 lb. white fish fillets",
             "1/4 cup all-purpose flour",
@@ -270,7 +354,14 @@
         "id": 13,
         "chef_id": 1,
         "name": "Tacos al Pastor",
-        "chefUrl": "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "name": "Chef Juan",
+            "bio": "Chef Juan is a Mexican chef and owner of Pujol in Mexico City, which has been named the best restaurant in Mexico and is frequently ranked among the world's top 50 restaurants. He is known for his innovative use of traditional Mexican ingredients and his commitment to sustainability.",
+            "yearsOfExperience": 10,
+            "numRecipes": 50,
+            "likes": 1162
+        },
         "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "ingredients": [
             "1 lb pork shoulder, sliced thin",
@@ -285,15 +376,22 @@
             "12 corn tortillas",
             "1/2 cup fresh cilantro, chopped"
         ],
-        "method": "1. Preheat oven to 400 degrees F (200 degrees C).\n2. Blend achiote paste, vinegar, orange juice, pineapple juice, garlic, salt, oregano, cumin, and black pepper in a blender until smooth.\n3. Marinate pork in the achiote mixture for at least 1 hour, or up to 24 hours.\n4. Preheat a grill or grill pan over medium-high heat.\n5. Thread pork onto skewers and grill, turning occasionally, until browned and cooked through, about 10 minutes.\n6. Remove pork from skewers and chop into small pieces.\n7. Warm tortillas in a dry skillet or on the grill for about 30 seconds per side.\n8. Serve pork on warm tortillas with diced onion, cilantro, and a squeeze of fresh lime juice.",
+        "method": "1. Preheat oven to 400 degrees F (200 degrees C).  2. Blend achiote paste, vinegar, orange juice, pineapple juice, garlic, salt, oregano, cumin, and black pepper in a blender until smooth.  3. Marinate pork in the achiote mixture for at least 1 hour, or up to 24 hours.  4. Preheat a grill or grill pan over medium-high heat.  5. Thread pork onto skewers and grill, turning occasionally, until browned and cooked through, about 10 minutes.  6. Remove pork from skewers and chop into small pieces.  7. Warm tortillas in a dry skillet or on the grill for about 30 seconds per side.  8. Serve pork on warm tortillas with diced onion, cilantro, and a squeeze of fresh lime juice.",
         "rating": 4.5
     },
     {
         "id": 14,
         "chef_id": 1,
         "name": "Chiles Rellenos",
-        "chefUrl": "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1576237680582-75be01432ca6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "name": "Chef Juan",
+            "bio": "Chef Juan is a Mexican chef and owner of Pujol in Mexico City, which has been named the best restaurant in Mexico and is frequently ranked among the world's top 50 restaurants. He is known for his innovative use of traditional Mexican ingredients and his commitment to sustainability.",
+            "yearsOfExperience": 10,
+            "numRecipes": 50,
+            "likes": 1162
+        },
+        "imageUrl": "https://www.seriouseats.com/thmb/trejv0fslsb3vZ7q_X5uGwywDbo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__20160422-chiles-rellenos-27-1be34192fc8c475da5c50b45e1c5f0b4.jpg",
         "ingredients": [
             "6 poblano peppers",
             "1 lb ground beef",
@@ -316,8 +414,15 @@
         "id": 15,
         "chef_id": 2,
         "name": "Enchiladas Verdes",
-        "chefUrl": "https://images.unsplash.com/photo-1617473345933-609b7153daf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1617473345933-609b7153daf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80",
+            "name": "Chef Maria",
+            "bio": "Chef Maria is a Mexican chef and owner of Dulce Patria in Mexico City, which is known for its modern take on traditional Mexican cuisine. She is also a cookbook author and has been recognized by the Latin America's 50 Best Restaurants list.",
+            "yearsOfExperience": 8,
+            "numRecipes": 40,
+            "likes": 1078
+        },
+        "imageUrl": "https://i.blogs.es/23068c/enchiladas-verdes-rellenas-de-queso-1-/1366_2000.jpg",
         "ingredients": [
             "12 corn tortillas",
             "1 lb cooked chicken, shredded",
@@ -340,8 +445,15 @@
         "id": 16,
         "chef_id": 2,
         "name": "Chicken Enchiladas",
-        "chefUrl": "https://images.unsplash.com/photo-1617473345933-609b7153daf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1617473345933-609b7153daf4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=739&q=80",
+            "name": "Chef Maria",
+            "bio": "Chef Maria is a Mexican chef and owner of Dulce Patria in Mexico City, which is known for its modern take on traditional Mexican cuisine. She is also a cookbook author and has been recognized by the Latin America's 50 Best Restaurants list.",
+            "yearsOfExperience": 8,
+            "numRecipes": 40,
+            "likes": 1078
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1570461226513-e08b58a52c53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=874&q=80",
         "ingredients": [
             "chicken breasts",
             "enchilada sauce",
@@ -360,8 +472,15 @@
         "id": 17,
         "chef_id": 3,
         "name": "Beef Tacos",
-        "chefUrl": "https://images.unsplash.com/photo-1622221410151-2e0c403c5c38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1622221410151-2e0c403c5c38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+            "name": "Chef Miguel",
+            "bio": "Chef Miguel is a Mexican chef and owner of Quintonil in Mexico City, which has been ranked among the world's top 10 restaurants. He is known for his use of local, seasonal ingredients and his commitment to sustainability.",
+            "yearsOfExperience": 12,
+            "numRecipes": 60,
+            "likes": 1346
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1619221882161-95135fca04e4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "ingredients": [
             "ground beef",
             "taco seasoning",
@@ -380,8 +499,15 @@
         "id": 18,
         "chef_id": 3,
         "name": "Guacamole",
-        "chefUrl": "https://images.unsplash.com/photo-1622221410151-2e0c403c5c38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1622221410151-2e0c403c5c38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+            "name": "Chef Miguel",
+            "bio": "Chef Miguel is a Mexican chef and owner of Quintonil in Mexico City, which has been ranked among the world's top 10 restaurants. He is known for his use of local, seasonal ingredients and his commitment to sustainability.",
+            "yearsOfExperience": 12,
+            "numRecipes": 60,
+            "likes": 1346
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1595016111459-799a195e7452?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "ingredients": [
             "ripe avocados",
             "lime juice",
@@ -397,8 +523,15 @@
         "id": 19,
         "chef_id": 4,
         "name": "Quesadillas",
-        "chefUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "name": "Chef Micheal",
+            "bio": "Chef Micheal is a Mexican chef and owner of Rosetta in Mexico City, which is known for its Italian-inspired cuisine. She is also a cookbook author and has been recognized by the Latin America's 50 Best Restaurants list.",
+            "yearsOfExperience": 7,
+            "numRecipes": 30,
+            "likes": 1123
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1618040996337-56904b7850b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "ingredients": [
             "flour tortillas",
             "shredded cheese",
@@ -415,8 +548,15 @@
         "id": 20,
         "chef_id": 4,
         "name": "Classic Lasagna",
-        "chefUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "name": "Chef Micheal",
+            "bio": "Chef Micheal is a Mexican chef and owner of Rosetta in Mexico City, which is known for its Italian-inspired cuisine. She is also a cookbook author and has been recognized by the Latin America's 50 Best Restaurants list.",
+            "yearsOfExperience": 7,
+            "numRecipes": 30,
+            "likes": 1123
+        },
+        "imageUrl": "https://www.modernhoney.com/wp-content/uploads/2019/08/Classic-Lasagna-12-1536x951.jpg",
         "ingredients": [
             "1 pound sweet Italian sausage",
             "3/4 pound lean ground beef",
@@ -447,8 +587,15 @@
         "id": 21,
         "chef_id": 5,
         "name": "Chicken Alfredo",
-        "chefUrl": "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1387&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1387&q=80",
+            "name": "Chef Roberto",
+            "bio": "Chef Roberto is a Mexican chef and owner of Contramar in Mexico City and Cala in San Francisco. She is known for her use of sustainable seafood and her commitment to social justice issues.",
+            "yearsOfExperience": 9,
+            "numRecipes": 45,
+            "likes": 1155
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "ingredients": [
             "1 (16 ounce) package linguine pasta",
             "1/2 cup butter",
@@ -465,8 +612,15 @@
         "id": 22,
         "chef_id": 5,
         "name": "Carne Asada Tacos",
-        "chefUrl": "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1387&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1595273670150-bd0c3c392e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1387&q=80",
+            "name": "Chef Roberto",
+            "bio": "Chef Roberto is a Mexican chef and owner of Contramar in Mexico City and Cala in San Francisco. She is known for her use of sustainable seafood and her commitment to social justice issues.",
+            "yearsOfExperience": 9,
+            "numRecipes": 45,
+            "likes": 1155
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1648437595587-e6a8b0cdf1f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
         "ingredients": [
             "1 lb flank steak",
             "1/4 cup lime juice",
@@ -488,8 +642,15 @@
         "id": 23,
         "chef_id": 6,
         "name": "Carnitas Tacos",
-        "chefUrl": "https://images.unsplash.com/photo-1512485800893-b08ec1ea59b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1512485800893-b08ec1ea59b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "name": "Chef John",
+            "bio": "Chef John is a Mexican-American chef based in Los Angeles. He is the executive chef at Casa Oaxaca, which is known for its authentic Oaxacan cuisine. Ruiz has also appeared on the Food Network's Chopped and Cutthroat Kitchen.",
+            "yearsOfExperience": 6,
+            "numRecipes": 33,
+            "likes": 782
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1512427691650-15fcce1dc7b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
         "ingredients": [
             "2 lbs boneless pork shoulder, cut into 1-2 inch cubes",
             "1/4 cup orange juice",
@@ -504,15 +665,22 @@
             "1/2 cup diced white onion",
             "1 lime, cut into wedges"
         ],
-        "method": "1. Preheat the oven to 350°F (175°C).\n2. Season the pork shoulder with salt and pepper.\n3. Heat the oil in a large Dutch oven over medium-high heat.\n4. Add the pork and cook until browned on all sides, about 5 minutes per side.\n5. Transfer the pork to a plate.\n6. Add the onions and garlic to the Dutch oven and cook until softened, about 5 minutes.\n7. Stir in the cumin and oregano and cook for 1 minute.\n8. Return the pork to the Dutch oven and add enough water to cover.\n9. Bring to a simmer, then cover and transfer to the oven.\n10. Cook until the pork is tender and pulls apart easily with a fork, about 3 hours.\n11. Remove the pork from the Dutch oven and shred with two forks.\n12. Heat a large skillet over medium-high heat.\n13. Add the shredded pork and cook until crispy, about 5 minutes.\n14. Warm the tortillas on a hot griddle or directly over a gas flame.\n15. Serve the pork in the tortillas with desired toppings.",
+        "method": "1. Preheat the oven to 350°F (175°C).  2. Season the pork shoulder with salt and pepper.  3. Heat the oil in a large Dutch oven over medium-high heat.  4. Add the pork and cook until browned on all sides, about 5 minutes per side.  5. Transfer the pork to a plate.  6. Add the onions and garlic to the Dutch oven and cook until softened, about 5 minutes.  7. Stir in the cumin and oregano and cook for 1 minute.  8. Return the pork to the Dutch oven and add enough water to cover.  9. Bring to a simmer, then cover and transfer to the oven.  10. Cook until the pork is tender and pulls apart easily with a fork, about 3 hours.  11. Remove the pork from the Dutch oven and shred with two forks.  12. Heat a large skillet over medium-high heat.  13. Add the shredded pork and cook until crispy, about 5 minutes.  14. Warm the tortillas on a hot griddle or directly over a gas flame.  15. Serve the pork in the tortillas with desired toppings.",
         "rating": 4.7
     },
     {
         "id": 24,
         "chef_id": 6,
         "name": "Fish Tacos",
-        "chefUrl": "https://images.unsplash.com/photo-1512485800893-b08ec1ea59b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-        "imageUrl": "https://images.unsplash.com/photo-1613409385222-3d0decb6742a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+        "chef": {
+            "chefUrl": "https://images.unsplash.com/photo-1512485800893-b08ec1ea59b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+            "name": "Chef John",
+            "bio": "Chef John is a Mexican-American chef based in Los Angeles. He is the executive chef at Casa Oaxaca, which is known for its authentic Oaxacan cuisine. Ruiz has also appeared on the Food Network's Chopped and Cutthroat Kitchen.",
+            "yearsOfExperience": 6,
+            "numRecipes": 33,
+            "likes": 782
+        },
+        "imageUrl": "https://images.unsplash.com/photo-1512838243191-e81e8f66f1fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
         "ingredients": [
             "1 lb. white fish fillets",
             "1/4 cup all-purpose flour",
